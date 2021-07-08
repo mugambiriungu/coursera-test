@@ -1,0 +1,79 @@
+
+
+@media only screen and (min-width: 992px){
+	/* For Desktop: */
+		[class*="col-"] {width: 33.33%; float:left;}
+	}
+
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+	/* For Tablet: */
+	.col-s-1 {width: 50%; float:left;}
+	.col-s-2 {width: 50%; float: left;}
+	.col-s-3 {width: 100%; clear:both;}
+}
+
+@media only screen and(max-width: 767px){
+	/* For mobile: */
+	[class*="col-"] {width: 100%;}
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	color:blue;
+}
+
+h2{
+	border-style: solid;
+	width: 120px;
+	text-align: center;
+	margin: 0px;
+
+}
+
+p{
+	padding:20px;
+	margin:10px;
+}
+header{
+	margin :auto;
+	padding:10px;
+	text-align:center;
+}
+
+section{
+	border-style:solid;
+	margin:6px;
+	background-color:#a8a8a4;
+	
+}
+
+
+
+
+#chicken h2{
+	background-color:#f5c8bf;
+	float:right;
+	margin-top:0px;
+	
+
+}
+
+#beef h2{
+	float:right;
+	margin-top:0px;
+	background-color:#912711;
+	
+	
+
+}
+
+#sushi h2{
+	float:right;
+	margin-top:0px;
+	background-color:#fcba03;
+	
+}
